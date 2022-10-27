@@ -11,15 +11,10 @@ body {
     box-sizing: border-box;
 }
 
-article {
-    padding: 10px;
-}
+html {
+    scroll-behavior: smooth;
+  }
 
-h1 {
-    text-align: center;
-}
-
-/*NAV STYLES*/
 nav {
     width: 100%;
     background-color: #e91e63;
@@ -33,9 +28,7 @@ nav a {
     text-decoration: none;
     font-size: 17px;
     width: 20%;
-    /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
     text-align: center;
-    /* If you want the text to be centered */
 }
 
 nav a:hover {
@@ -48,8 +41,10 @@ nav a.active {
     pointer-events: none;
 }
 
+h1 {
+    text-align: center;
+}
 
-/*MAIN ARTICLE TITLE*/
 article {
     margin: 20px;
     margin-top: 15px;
@@ -58,6 +53,27 @@ article {
     display: block;
     color: #ffffff;
 }
+
+article p {
+    width: 80%;
+    float: left;
+}
+
+article img {
+    width: 20%;
+    padding-left: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+
+
+
 
 
 
@@ -72,13 +88,13 @@ article {
     flex-wrap: wrap;
 }
 
-ul {
-    list-style: none;
-}
+
 
 .footer {
     background-color: #000000;
     padding: 70px 0;
+    clear: both;
+
 }
 
 .footer-col {
